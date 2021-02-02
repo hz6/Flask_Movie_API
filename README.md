@@ -9,6 +9,7 @@ This is a backend API build in Python Flask
 Flask, SQLite3
 
 # Instruction
+How to run this server
 1. cd to the project folder
 2. $export FLASK_APP=api
 3. $flask run
