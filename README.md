@@ -7,3 +7,8 @@ This is a backend API build in Python Flask
 
 # Technology
 Flask, SQLite3
+
+# Instruction
+1. cd to the project folder
+2. $export FLASK_APP=api
+3. $flask run
