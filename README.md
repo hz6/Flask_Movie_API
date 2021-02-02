@@ -2,9 +2,8 @@
 This is a backend API build in Python Flask
 
 # Function
-You can add a movie with 'title' and 'rating'.\n
+You can add a movie with 'title' and 'rating'.
 You can view all the movies in the database.
 
 # Technology
-Python Flask
-SQLite3
+Flask, SQLite3
