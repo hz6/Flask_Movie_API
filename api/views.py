@@ -23,7 +23,7 @@ def add_movie():
     return 'Done', 201
 
 
-@main.route('/api/movies', methods=['GET'])
+@main.route('/api/movie/all', methods=['GET'])
 def movies():
     """
     This function does the job of getting all the movies from the database
@@ -31,5 +31,11 @@ def movies():
     query_result = Movie.query.all()
     movies_list = []
     for movie in query_result:
-        movies_list.append({'title': movie.title, 'rating': movie.rating})
+
+        movies_list.append({
+            'id': movie.id,
+            'title': movie.title,
+            'rating': movie.rating
+        })
+
     return jsonify({'movies': movies_list}), 200
