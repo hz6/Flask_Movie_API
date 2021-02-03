@@ -12,4 +12,5 @@ Flask, SQLite3
 How to run this server
 1. cd to the project folder
 2. $export FLASK_APP=api
-3. $flask run
+3. $export FLASK_DEBUG=1 (Optional)
+4. $flask run
